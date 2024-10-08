@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NUEVA ACTIVIDAD "
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="56dp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CODIGO DE LA ACTIVIDAD"
+            tools:layout_editor_absoluteX="42dp"
+            tools:layout_editor_absoluteY="109dp" />
+
+        <EditText
+            android:id="@+id/editTextText12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Ingrese Codigo"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="137dp" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FECHA"
+            tools:layout_editor_absoluteX="43dp"
+            tools:layout_editor_absoluteY="224dp" />
+
+        <EditText
+            android:id="@+id/editTextText13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Ingrese Fecha"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="252dp" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NOMBRE"
+            tools:layout_editor_absoluteX="43dp"
+            tools:layout_editor_absoluteY="312dp" />
+
+        <EditText
+            android:id="@+id/editTextText14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Ingrese Nombre "
+            tools:layout_editor_absoluteX="36dp"
+            tools:layout_editor_absoluteY="343dp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DESCRIPCIÓN"
+            tools:layout_editor_absoluteX="40dp"
+            tools:layout_editor_absoluteY="422dp" />
+
+        <EditText
+            android:id="@+id/editTextText15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Ingrese Descripción"
+            tools:layout_editor_absoluteX="36dp"
+            tools:layout_editor_absoluteY="458dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="337dp"
+            android:layout_height="39dp"
+            android:text="ACEPTAR "
+            tools:layout_editor_absoluteX="40dp"
+            tools:layout_editor_absoluteY="561dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

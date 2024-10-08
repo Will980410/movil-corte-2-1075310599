@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="386dp"
+            android:layout_height="701dp"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="-8dp">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ACEPTAR"
+                tools:layout_editor_absoluteX="35dp"
+                tools:layout_editor_absoluteY="602dp" />
+
+            <EditText
+                android:id="@+id/editTextText6"
+                android:layout_width="295dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:hint="Ingrese Teléfono"
+                android:imeOptions="actionDone"
+                android:inputType="phone"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="525dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="374dp"
+                android:layout_height="47dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:text="TELÉFONO"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="478dp" />
+
+            <EditText
+                android:id="@+id/editTextText4"
+                android:layout_width="362dp"
+                android:layout_height="37dp"
+                android:ems="10"
+                android:hint="Ingrese Dirección"
+                android:imeOptions="actionNext"
+                android:inputType="textPostalAddress"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="431dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="342dp"
+                android:layout_height="36dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:text="DIRRECIÓN"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="385dp" />
+
+            <EditText
+                android:id="@+id/editTextText3"
+                android:layout_width="364dp"
+                android:layout_height="46dp"
+                android:ems="10"
+                android:hint="Ingrese Correo"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="339dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="362dp"
+                android:layout_height="39dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:text="CORREOS"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="12dp"
+                tools:layout_editor_absoluteY="300dp" />
+
+            <EditText
+                android:id="@+id/editTextText"
+                android:layout_width="369dp"
+                android:layout_height="43dp"
+                android:ems="10"
+                android:hint="Ingrese Apellidos"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                tools:layout_editor_absoluteX="10dp"
+                tools:layout_editor_absoluteY="257dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="365dp"
+                android:layout_height="41dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:text="APELLIDOS"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="9dp"
+                tools:layout_editor_absoluteY="216dp" />
+
+            <EditText
+                android:id="@+id/editTextText2"
+                android:layout_width="370dp"
+                android:layout_height="36dp"
+                android:ems="10"
+                android:hint="Ingrese Nombre"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="180dp" />
+
+            <TextView
+                android:id="@+id/Nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:text="  NOMBRES "
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="11dp"
+                tools:layout_editor_absoluteY="152dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="REGISTRO"
+                android:textAllCaps="false"
+                android:textColorLink="#F44336"
+                tools:layout_editor_absoluteX="149dp"
+                tools:layout_editor_absoluteY="47dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
